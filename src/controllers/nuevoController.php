@@ -3,12 +3,14 @@
 namespace App\Controllers;
 
 use \Core\libs\Controller;
+use App\Models\NuevoModel;
 
 class NuevoController extends Controller
 {
     public function __construct()
     {
         parent::__construct();
+        $this->model = new NuevoModel();
     }
 
     public function render()

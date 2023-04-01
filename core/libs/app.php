@@ -24,9 +24,9 @@ class App
                         $param[] = $url[$i];
                     }
                     $controller->{$url[1]}($param);
+                }else{
+                    $controller->{$url[1]}();
                 }
-            } else {
-                $controller->{$url[1]}();
             }
         } else {
             $controller->render();

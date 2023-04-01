@@ -9,7 +9,7 @@
                 </div>
             <?php endif; ?>
             <form
-                    action="<?php echo constant('BASE_URL') . 'product/create' ?>"
+                    action="<?php echo constant('BASE_URL') . 'nuevo/create' ?>"
                     method="POST"
             >
                 <div class="mb-3">
